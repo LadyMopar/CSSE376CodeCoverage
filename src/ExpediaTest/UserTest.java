@@ -66,6 +66,13 @@ public class UserTest
 		Assert.assertEquals(2, target.Bookings.size());
 	}
 	
+	
+	@Test
+	public void TestHotelNightsToRent(){
+		target.book(new Booking[]{new Car(5), new Hotel(-1)});
+		Assert.fail("Can't be negative");
+	}
+	
 	@Test
 	public void TestThatUserHasCorrectNumberOfFrequentFlyerMilesAfterOneFlight()
 	{
