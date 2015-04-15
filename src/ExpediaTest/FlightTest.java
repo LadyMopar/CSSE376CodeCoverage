@@ -13,6 +13,8 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+//This class already has 100% Term coverage.
 public class FlightTest {
 	private Flight targetFlight;
 	private final Date StartDate = new Date(2009, 11, 1);
