@@ -13,6 +13,7 @@ import Expedia.IDatabase;
 
 public class HotelTest
 {
+	
 	private Hotel targetHotel;
 	private int NightsToRentHotel = 5;
 	
